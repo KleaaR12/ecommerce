@@ -1,0 +1,114 @@
+
+  <!--S9 FOOTER-->
+  <div class="container-fluid    footer2 bg-dark"  >
+    <div class=" mt-5 p-lg-3  ">
+  
+     <div class="mt-3 p-3 text-center d-flex flex-column"> 
+      <h3 class="text-white ">Want style Ideas and Treats?</h3>
+      <div class="d-flex flex-row justify-content-center">
+      <div class="footeremail mb-3  mt-4">
+        <input type="email" class="form-control" id="footer-email" placeholder="Enter email *">
+       
+      </div>
+      <div class="px-1 mt-2">
+        
+        <button type="" class="btn btn-secondary  mt-3 bt2 " id="bt2">Subscribe</button></div>
+      </div>
+    </div>
+  
+    <div class="row"> 
+  
+     
+     <div class="col-lg-1 col-md-3 col-sm-3 col-12  mt-5  d-flex flex-column text-start p-3 ">
+       <h3 class=" text-white text-decoration-none" href="#"><span style="font-family: 'Times New Roman', Times, serif; font-weight: bolder;">Shopper.</h3>
+  
+       <div class="icons d-flex mt-4  ">
+         <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-facebook  text-white"></i>  </a> 
+         <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-twitter  text-white"></i>  </a>
+         <a class="btn  rounded-circle  px-2 fs-4" href="#"><i class="fa-brands fa-instagram  text-white"></i>  </a>
+         <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-youtube  text-white"></i>  </a>
+         <a class="btn rounded-circle px-2 fs-4 " href="#"><i class="fa-brands fa-pinterest  text-white"></i>  </a>
+       </div>
+     </div>
+     
+  
+  
+     <div class="col-lg-1 offset-lg-1  col-md-1 col-sm-1 col-6 mt-5 d-flex flex-column ">
+      <div class="p-lg-3">
+       <h5 class="text-white fw-bold">SUPPORT</h5>
+      </div>
+       <div class="d-block footerlink ">
+        
+             
+        <a class=" nav-link text-white fs-6  fw-bold" href="#">Contact</a>
+        
+        <a class="nav-link text-white fs-6 fw-bold" href="#">FAQs</a>
+     
+        <a class="nav-link text-white fs-6  fw-bold" href="#"> Guide</a>
+     
+        <a class="nav-link text-white fs-6 fw-bold" href="#">Shipping</a>
+        
+       </div>
+     </div>
+  
+    
+     <div class="col-lg-2  col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-6  mt-5 d-flex flex-column ">
+      <div class="p-lg-3">
+       <h5 class="text-white fw-bold">SHOP</h5>
+      </div>
+       <div class="d-block">
+    
+         
+             <a class=" nav-link text-white fs-6  fw-bold" href="#">Men's Shopping</a>
+        
+             <a class="nav-link text-white fs-6 fw-bold" href="#">Women's Shopping</a>
+          
+             <a class="nav-link text-white fs-6 fw-bold" href="#">Kid's Shopping</a>
+          
+             <a class="nav-link text-white fs-6 fw-bold" href="#">Discounts</a>
+          
+       </div>
+     </div>
+  
+     <div class="col-lg-2  col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6   mt-5 d-lg-flex flex-column d-md-flex d-none ">
+      <div class="p-lg-3">
+       <h5 class="text-white fw-bold">HELP</h5>
+      </div>
+       
+          <div class="d-block">
+             
+             <a class="nav-link text-white fs-6 fw-bold " href="#">Our story</a>
+         
+             <a class="nav-link text-white fs-6 fw-bold " href="#">Careers</a>
+          
+            <a class=" nav-link text-white fs-6 fw-bold" href="#">Terms&Condition</a>
+         
+       <a class=" nav-link text-white fs-6 fw-bold" href="#">Privacy & cocie police</a>
+     
+          </div>
+       
+      
+     </div>
+  
+     
+     <div class="col-lg-2  col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6  mt-5 p-2 d-lg-flex flex-column d-md-flex d-none">
+      <div class="p-lg-3">
+      <h5 class="text-white fw-bold">CONTACT</h5>
+      </div>
+      <div class="d-block ">
+  
+        
+            <a class=" nav-link text-white fs-6 fw-bold" href="#" >1-888-923-804</a>
+         
+            <a class=" nav-link text-white fs-6 fw-bold" href="#" >1-888-923-8055</a>
+        
+            <a class=" nav-link text-white fs-6 fw-bold" href="#">help@allbirds.com</a>
+    
+           
+        
+      </div>
+     </div>
+   
+   </div>
+    </div>
+  </div>

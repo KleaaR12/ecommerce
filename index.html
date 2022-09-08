@@ -1,0 +1,924 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="style.scss">
+    <script type="module" src="index.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+   
+
+  </head>
+  <body>
+
+    <!--head-->
+
+    <nav class="navbar navbar-light bg-light ms-auto d-none d-lg-block d-md-block">
+      <div class="container">
+
+        <div class="col-lg-2 d-flex flex-row" style="font-size: 10px;">
+          <a class="nav-link btn  rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-truck"></i></a>
+      <span class="navbar-brand mb-0 fs-6 fw-bold mt-1" >Free shipping over $100</span>
+        </div>
+
+        <div class="col-lg-3 offset-lg-1 d-flex flex-row nav1" style="justify-content:space-between ;">
+        
+          <a class="nav-link   rounded-pill px-1 text-dark shadow-none " ><img src="us.png" style="height:20px ;"></a>
+          <p class="fs-6 fw-bold mt-2" >United States</p>
+          <a class="nav-link  btn rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-chevron-down"></i> </a>
+          
+          <p class="fs-6 fw-bold mt-2"> | USD</p>
+          <a class="nav-link  btn rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-chevron-down"></i> </a>
+          <p class="fs-6 fw-bold mt-2"> | English </p>
+          
+          <a class="nav-link  btn rounded-pill px-1 text-dark shadow-none " ><i class="bi bi-chevron-down"></i> </a>
+         
+        </div>
+            
+        <div class="shipping1 col-lg-5 offset-lg-1 d-flex flex-row " style="justify-content:space-around ;">
+          <p class="fw-bold mt-1">Shipping</p>
+          <p class="fw-bold mt-1">FAQ</p>
+          <p class="fw-bold mt-1">Contact</p>
+          <div class="icons d-flex justify-content-end">
+            <a class="btn rounded-circle px-1 " href="#"><i class="fa-brands fa-facebook  text-gray"></i>  </a> 
+            <a class="btn rounded-circle px-1 " href="#"><i class="fa-brands fa-twitter  text-gray"></i>  </a>
+            <a class="btn  rounded-circle px-1 " href="#"><i class="fa-brands fa-instagram  text-gray"></i>  </a>
+            <a class="btn rounded-circle px-1" href="#"><i class="fa-brands fa-youtube  text-gray"></i>  </a>
+      
+          </div>
+        </div>
+      
+      </div>
+    </nav>
+  
+  
+    <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <div class="container p-2">
+   <!--Logo -->
+          <a class="navbar-brand logo  order-lg-1 order-md-1 order-sm-1 order-1 col-lg-2 col-md-2 col-6 col-sm-6" href="#"
+          >Shopper.</a>
+          
+<!--Menu button  for xs sm-->
+<button class="btn text-dark ms-3 shadow-none  order-sm-2 order-2 d-lg-none d-md-none d-block d-sm-block col-3" type="button" data-bs-toggle="collapse"
+data-bs-target="#navbarSupported" aria-controls="navbarSupported" aria-expanded="false"><i
+  class="fa-solid fa-bars"></i>
+</button>
+       
+
+<!--menu for sm-->
+<div class="links  collapse  col-12  order-3 d-lg-none d-md-none "  id="navbarSupported" style="justify-content: center;" >
+   <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link fw-bold" aria-current="page" href="#" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  fw-bold" href="#">Catalog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  fw-bold" href="#">Shop</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  fw-bold"href="#">Pages</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  fw-bold" href="#">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  fw-bold" href="#">Elements</a>
+    </li>
+  </ul>
+</div>
+<!--menu for lg md-->
+<div class=" links col-lg-8 d-lg-flex d-none order-lg-2 d-lg-block d-md-block d-none" style="justify-content: center;" >
+  <ul class="navbar-nav">
+    <li class="nav-item ">
+      <a class="nav-link fw-bold" aria-current="page" href="#" >Home</a>
+    </li>
+    <li class="nav-item mx-lg-2">
+      <a class="nav-link  fw-bold " href="#">Catalog</a>
+    </li>
+    <li class="nav-item mx-lg-2">
+      <a class="nav-link  fw-bold" href="#">Shop</a>
+    </li>
+    <li class="nav-item  mx-lg-2">
+      <a class="nav-link  fw-bold"href="#">Pages</a>
+    </li>
+    <li class="nav-item  mx-lg-2">
+      <a class="nav-link  fw-bold" href="#">Blog</a>
+    </li>
+    <li class="nav-item  mx-lg-2">
+      <a class="nav-link  fw-bold" href="#">Elements</a>
+    </li>
+  </ul>
+</div>
+        
+       <!--icons-->
+          <div class="ms-lg-auto col-lg-2 col-md-2  order-lg-3 order-md-3  d-lg-block  d-md-block d-none">
+            <ul class="navbar-nav  d-md-flex flex-md-row d-none justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link btn mt-2 ms-3 rounded-pill px-0 text-dark shadow-none cool-link2 " href="#"><i class="bi bi-search"></i> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn mt-2 ms-3 rounded-pill px-0 text-dark shadow-none cool-link2 " href="#"><i class="bi bi-person"></i></a>
+              </li>
+              <li>
+                <a class="nav-link btn mt-2 ms-3 rounded-pill px-0 text-dark shadow-none cool-link2 " href="#"> <i class="bi bi-heart"></i>
+                </a>
+              </li>
+              <li>
+                <a class="nav-link btn mt-2 ms-3 rounded-pill px-0 text-dark shadow-none cool-link2 " href="#"><i class="bi bi-cart"></i></a>
+              </li>
+               
+              </ul>
+             </div> 
+         </div>
+      </nav>
+
+      <nav class="navbar navbar-dark bg-dark mt-1" style="height:50px;justify-content: center;">
+        <div class="text-white d-flex flex-row mt-1 " >
+          <h6 class="fw-b ">GET 20% SALE WITH CUPONE CODE CGBNJK125</h6></div>
+    
+      </nav>
+
+<!--shop-->
+      <div class="container-fluid mt-3">
+       <div class="row ">
+
+        <div class="col-lg-4 px-0 wimg1-container collection-container ">
+          <div class=" wimg1 "  >
+
+            <!--text-->
+           
+            <div class="text-white text-center  text1">
+            
+             <h1>Womens</h1>
+
+             <div class="mt-5 shb-container">
+             <button type="button" class=" shopbutton btn-light text-dark">Shop Womens  <i class="bi bi-arrow-right"></i> </button>
+              </div>
+     
+            </div>
+           
+            
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 px-0 manimg1-container collection-container pt-3 pt-lg-0 ">
+          <div class=" manimg1 "  >
+            <div class="text-white text-center  text1">
+            
+              <h1>Mens</h1>
+ 
+              <div class="mt-5 shb-container">
+                <button type="button" class=" shopbutton btn-light text-dark">Shop Mans  <i class="bi bi-arrow-right"></i> </button>
+                 </div>
+ 
+             </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 px-0 kidimg1-container collection-container pt-3 pt-lg-0">
+          <div class=" kidimg1 "  >
+            <div class="text-white text-center  text1">
+            
+              <h1>Kids</h1>
+ 
+              <div class="mt-5 shb-container">
+                <button type="button" class=" shopbutton btn-light text-dark">Shop Kids  <i class="bi bi-arrow-right"></i> </button>
+                 </div>
+ 
+             </div>
+          </div>
+
+        </div>
+        
+
+
+       </div>
+
+
+      </div>
+
+<!--Free-->
+      <div class="container free ">
+        <div class="row mt-4">
+
+          <div class="col-lg-3 mt-3 ">
+           <div class=" ms-auto d-flex flex-row ">
+             <a class=" btn  px-3 text-danger fs-6"
+       href="#"><i class="bi bi-truck"></i></a>
+         
+            <div class="d-flex flex-column freetext"  >
+            <p class=" first text-start " >FREE SHIPPING</p>
+            <p class=" second text-gray text-start ">From all orders over $100</p>
+            </div>
+           </div>
+           </div>
+          
+         
+          <div class="col-lg-3 mt-3">
+            <div class=" ms-auto d-flex flex-row ">
+              <a class=" btn  px-3 text-danger fs-6"
+        href="#"><i class="bi bi-arrow-left-right"></i></a>
+          
+             <div class="d-flex flex-column freetext">
+             <p class=" first text-start" >  FREE RETURNS</p>
+             <p class=" second text-gray text-start ">Return money within 30 day</p>
+             </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-3">
+            <div class=" ms-auto d-flex flex-row ">
+              <a class=" btn  px-3 text-danger fs-6"
+        href="#"><i class="bi bi-lock"></i></a>
+          
+             <div class="d-flex flex-column freetext">
+             <p class=" first  text-start" >  SECURE SHOPPING</p>
+             <p class="second text-gray text-start ">Y're in safe hands</p>  <!--RRIT IKONAT ?????-->
+             </div>
+            </div>
+          </div>
+
+
+       
+          <div class="col-lg-3 mt-3">
+            <div class=" ms-auto d-flex flex-row ">
+              <a class=" btn  px-3 text-danger fs-6"
+        href="#"><i class="bi bi-tag"></i></i></a>
+          
+             <div class="d-flex flex-column freetext" >
+             <p class="first  text-start" >OVER 10.000 STYLES</p>
+             <p class=" second text-gray text-start ">We have everything you need</p>
+             </div>
+            </div>
+          </div>
+      
+
+
+        </div> 
+          <hr>
+      </div>
+  
+
+ 
+<!--shkrimi-->
+    <div class="mt-5 p-5 d-flex flex-column text-center para">
+      <p class=" newcoll  ">NEW COLLECTION</p>
+      <h3>Best Picks 2019</h3>
+      <p class=" pa mt-4">Appear,dry there darkness they're seas,dry waters thing fly midst.</p>
+      <p class=" pa pa2 ">Beast,above fly brought Very green.</p>
+    </div>
+
+
+
+<!--collection-->
+<div class="categories ">
+  <div class="container">
+    <div class="row ">
+
+    <div class="col-lg-4 wimg2-container">
+     <div class="wimg2">
+
+       <div class="d-flex flex-column  text-center text-white   collection1-text">
+       
+      <h4>Bags Collection</h4>
+      <a class="nav-link text-white mt-2" href="#">Shop Now <i class="bi bi-arrow-right"></i></a>
+         
+       </div>
+
+     </div>
+    </div>
+     
+
+    <div class="col-lg-8 wimg2-container">
+     <div class="manimg2">
+     <span class="discount d-none d-lg-block d-md-block">30%</span>
+       <div class="d-flex flex-column  text-start text-dark collection2-text mt-lg-0 mt-2  col-lg-5 col-md-4 col-12">
+        
+      <h4>Printed men's Shirts</h4>
+      <a class="nav-link text-dark mt-4" href="#">Shop Now <i class="bi bi-arrow-right"></i></a>
+        
+       </div>
+     </div>
+    </div>
+
+    </div>
+    
+   
+
+
+
+
+
+    <div class="row  mt-lg-4 mt-0">
+     <div class="col-lg-8 wimg2-container mt-3 mt-lg-0">
+       <div class="wimg3">
+         <div class="d-flex flex-column  text-start text-dark collection2-text col-lg-6 col-md-4 col-12 ">
+         
+        <h4>Basic women's dresses</h4>
+        <a class="nav-link text-dark mt-4" href="#">Shop Now <i class="bi bi-arrow-right"></i></a>
+          
+         </div>
+       </div>
+      </div>
+
+
+
+      <div class="col-lg-4 wimg2-container   mt-lg-0 mt-2">
+       <div class="manimg3">
+        <div class="d-flex flex-column  text-center text-white   collection1-text">
+        
+      <h4>Sweatshirts</h4>
+      <a class="nav-link text-white mt-2" href="#">Shop Now <i class="bi bi-arrow-right"></i></a>
+        
+       </div>
+       </div>
+      </div>
+
+    </div>
+
+</div>
+   </div>
+   
+  
+
+
+ <!--CARDS-->
+ <div class="container mt-5 ">
+  <h3 class="text-center top-text mt-5"><span style="font-family: 'Times New Roman', Times, serif Times, serif;">Top month Sellers</h3>
+
+  <div class="links d-flex justify-content-center type-text">
+    <nav class="navbar navbar-expand ">
+      <ul class="navbar-nav   mb-2 mb-lg-0 mb-md-0   ">
+        <li class="nav-item">
+          <a class="nav-link  active text-gray cool-link2  pink" href="#">Womens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-gray cool-link2 pink" href="#">Mens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-gray cool-link2 pink" href="#">Kids</a>
+        </li>
+       
+      </ul>
+    </nav>
+  </div>
+
+  <!--cards-->
+  <div class="row  mt-4 s3">
+    <div class="col-lg-3 col-6 mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block ih" src="leathershoes.jpeg" style="object-fit: contain;" alt="yellowsweater">
+        <span class="new-label">NEW</span>
+        <div class="panel text-decoration-none">
+        
+         <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+         <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+         <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+       
+      </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn  px-0 py-0 align-self-center ">Shoes</a>
+         <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0 fw-bold ">Leather mid-heel Sandals</p>
+          <p class="price fs-6 py-0 px-0  text-gray">$129.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3  col-6 mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="floraldress.jpeg" style="object-fit: contain;" alt="greenskirt">
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">Dresses</a>
+         <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0 fw-bold ">Cotton floral print Dress</p>
+          <p class="price fs-6 py-0 px-0 text-gray">$40.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3  col-6 mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="sneakers.jpeg" style="object-fit: contain;" alt="shortsdenim">
+        <span class="sale-label">SALE</span>
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">shoes</a>
+            <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0  fw-bold">Leather Sneakers</p>
+          <p class="price fs-6 py-0 px-0  text-gray"><del>$115.00</del><span class="text-danger"> $85.00</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-6 mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="top.jpeg" style="object-fit: contain;" alt="blackdress">
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">Tops</a>
+             <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column">
+          <p class="tekst my-0 px-0 py-0  fw-bold">Cropped cotton Top</p>
+          <p class="price fs-6 py-0 px-0  text-gray">$29.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 d-lg-block  d-none mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="floraldress2.jpeg" style="object-fit: contain;" alt="blacksweater">
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">Dresses</a>
+            <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0 fw-bold ">Floral print midi Dress</p>
+          <p class="price fs-6 py-0 px-0  text-gray">$50.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 d-lg-block  d-none mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="pinkbag.jpeg" style="object-fit: contain;" alt="redskirt">
+        <span class="sale-label">SALE</span>
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">Bags</a>
+            <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0 fw-bold ">Suede cross body Bag</p>
+          <p class="price fs-6 py-0 px-0  text-gray">$79.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 d-lg-block d-none mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="printedskirt.jpeg" style="object-fit: contain;" alt="pants">
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">Skirts</a>
+         <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0  fw-bold">Printed A-line Skirt</p>
+          <p class="price fs-6 py-0 px-0  text-gray">$79.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 d-lg-block  d-none mt-4">
+      <div class="card h-100 border-0" style="background: none;">
+        <img class="img-fluid d-block" src="heel.jpeg" style="object-fit: contain;" alt="whitesweater">
+        <span class="new-label">NEW</span>
+        <div class="panel text-decoration-none">
+        
+          <a href="#" class="view ic"><span><i class="bi bi-eye"></i></span></a>
+          <a href="#" class="buy ic"><span><i class="bi bi-cart"></i></span></a>
+          <a href="#" class="wish ic"><span><i class="bi bi-heart"></i></span></a>
+        
+       </div>
+        <div class="card-body d-flex justify-content-between px-0 py-0 mt-4" style="opacity: 0.7;">
+          <a class="card-title font-weight-semi-bold btn px-0 py-0 align-self-center ">Shoes</a>
+           <!--    <button class="btn button shadow-none heart " click="function ()"><i  class="bi bi-heart" ></i>-->
+        </div>
+        <div class="d-flex flex-column ">
+          <p class="tekst my-0 px-0 py-0 fw-bold">Heel strappy Sandals</p>
+          <p class="price fs-6 py-0 px-0  text-gray">$90.00</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="discover">
+    <a class="nav-link   text-center mt-5 text-dark cool-link2  offset-lg-5 col-lg-2 offset-lg-5 offset-3 col-6 offset-3 " href="#">Discover More</a> 
+  </div>
+ 
+</div>
+
+
+
+<!--TIME-->
+
+<div class="time mt-5 ">
+  <div class="container-fluid">
+    <div class="row">
+         
+      <div class=" col-lg-6   timeimage d-lg-block  d-none">
+        <img src="Hicon.png" alt="">
+      </div> 
+      
+      <div class="col-lg-6 col-md-12 col-12 ">
+        <div class="timetext ">
+              
+          <h3> Get -50% from</h1>
+          <h3>Summer Collection </h1>
+         
+          <div class="countdown">
+            00 : 00 : 00 : 00
+          </div>
+        </div>
+        <div class="mt-5 timebutton ">
+          <button type="button" class="btn btn-dark text-light ">Shop Now <i class="bi bi-arrow-right"></i> </button>
+           </div>
+    
+      </div>
+
+     
+
+    </div>
+  </div>
+</div>
+
+
+<!--reviews-->
+<div class="mt-5 p-5 d-flex flex-column text-center">
+  <p class="text-gray " style="font-weight: 500;"  >WHAT BUYERS SAY</p>
+  <h3 class="text-center brev"><span style="font-family: 'Times New Roman', Times, serif Times, serif;">Lastest buyers Reviews</h3>
+
+</div>
+
+<div class="swiper mySwiper container section">
+  <div class="swiper-wrapper content">
+<!--Card-->
+    <div class="swiper-slide card">
+      <div class="card-content">
+        <div class="row imazhi">
+          <div class="image col-6">
+            <img src="r1.jpeg" alt="">
+          </div>
+
+          <div class="col-6 info">
+            <div class="name-profession">
+              <span class="name">Shoes</span>
+              <span class="profession">Low top sneakers</span>
+            </div>
+    
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+  
+        </div>
+
+        <div class="row desc">
+          Whatever the occasion, we have a dress to suit you at Review Australia. Discover the perfect formal dress, stunning bridesmaid dress or classy cocktail dress .
+        </div>
+      </div>
+    </div>
+  <!--End Card--> 
+  <!--Card-->
+  <div class="swiper-slide card">
+    <div class="card-content">
+      <div class="row imazhi">
+        <div class="image col-6">
+          <img src="r2.png" alt="">
+        </div>
+
+        <div class="col-6 info">
+          <div class="name-profession">
+            <span class="name">Dresses</span>
+            <span class="profession">Cotton  Dress</span>
+          </div>
+  
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="row desc">
+        Whatever the occasion, we have a dress to suit you at Review Australia. Discover the perfect formal dress, stunning bridesmaid dress or classy cocktail dress -
+      </div>
+    </div>
+  </div>
+<!--End Card--> 
+ <!--Card-->
+ <div class="swiper-slide card">
+  <div class="card-content">
+    <div class="row imazhi">
+      <div class="image col-6">
+        <img src="r3.png" alt="">
+      </div>
+
+      <div class="col-6 info">
+        <div class="name-profession">
+          <span class="name">T-shirts</span>
+          <span class="profession">Oversized T-shirt</span>
+        </div>
+
+        <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+
+    </div>
+    <div class="row desc">
+      Whatever the occasion, we have a dress to suit you at Review Australia. Discover the perfect formal dress, stunning bridesmaid dress or classy cocktail dress -
+    </div>
+  </div>
+</div>
+<!--End Card--> 
+  </div>
+</div>
+
+  <!--<div class="swiper-pagination"></div>-->
+
+
+
+
+  <!--shopper-->
+
+<div class="container-fluid bg-light shopper" >
+  <div class="container mt-5">
+ <div class="row">
+  <div class="mt-5 d-flex flex-column text-center   " >
+    <div class="shkrim mt-5 p-3">
+    <h3 class="">@shopper</h3>
+    <p class=" ">Appear, dry there darkness they're seas, dry waters.</p>
+</div>
+   </div>
+  </div>
+
+
+
+<!--gallery-->
+ 
+  <div class="line row images mt-5 ">
+    <div class="col-4 px-1 col-lg-2 ">
+      <img src="P1.png " class="gal" alt="P1" style="width:100% ">
+      
+      <div class="panel2 d-lg-flex flex-row  justify-content-center  d-none ">
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5 "><i class="bi bi-heart"></i> </a>
+        <p class="mt-2 px-2 fs-5 text-light">248</p>
+        <a href="#" class="btn rounded-circle text-white px-0 fs-5"><i class="bi bi-chat-left"></i> </a>
+        <p class="mt-2 px-2 fs-5 text-light">348</p>
+       </div>
+    </div>
+    <div class="col-4 px-1 col-lg-2">
+      <img src="P2.png" alt="P2" style="width:100%">
+    </div>
+    <div class="col-4 px-1 col-lg-2">
+      <img src="P3.png" alt="P3" style="width:100%">
+    </div>
+
+    <div class="col-4 px-1 col-lg-2 pt-2  pt-lg-0">
+      <img src="P4.png" alt="P4" style="width:100%">
+    </div>
+    <div class="col-4 px-1 col-lg-2 pt-2  pt-lg-0">
+      <img src="P5.png" alt="P5" style="width:100%">
+    </div>
+    <div class="col-4 px-1 col-lg-2 pt-2  pt-lg-0">
+      <img src="P6.png" alt="P6" style="width:100%">
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!--firmat-->
+<div class="container">
+  <div class="row mt-lg-5 mt-4 p-lg-2  mb-4 " style="justify-content:space-between;">
+    <div class="col-lg-2  col-md-2  d-lg-block d-md-block d-none"><img src="mango.png" style="height:35px ;"></div>
+    <div class="col-lg-2  col-md-2 col-3  "><img src="zara.png" style="height:35px ;"></div>
+  
+    <div class="col-lg-2  col-md-2  d-lg-block d-md-block d-none "><img src="reebok.png" style="height:35px ;"></div>
+    <div class="col-lg-2  col-md-2 col-3 col-2  "><img src="adidas.png" style="height:30px ;"></div>
+    <div class="col-2 d-lg-block d-md-block d-none"><img src="stra.png" style="height:50px ;"></div>
+    <div class="col-lg-2  col-md-2 col-3 "><img src="asos.png" style="height:50px ;"></div>
+   </div>
+
+</div>
+
+
+
+  <!--S9 FOOTER-->
+  <div class="container-fluid    footer2 bg-dark"  >
+    <div class=" mt-5 p-lg-3  ">
+  
+     <div class="mt-3 p-3 text-center d-flex flex-column"> 
+      <h3 class="text-white ">Want style Ideas and Treats?</h3>
+      <div class="d-flex flex-row justify-content-center">
+      <div class="footeremail mb-3  mt-4">
+        <input type="email" class="form-control" id="footer-email" placeholder="Enter email *">
+       
+      </div>
+      <div class="px-1 mt-2">
+        
+        <button type="" class="btn btn-secondary  mt-3 bt2 " id="bt2">Subscribe</button></div>
+      </div>
+    </div>
+  
+    <div class="row"> 
+  
+     
+     <div class="col-lg-1 col-md-3 col-sm-3 col-12  mt-5  d-flex flex-column text-start p-3 ">
+       <h3 class=" text-white text-decoration-none" href="#"><span style="font-family: 'Times New Roman', Times, serif; font-weight: bolder;">Shopper.</h3>
+  
+       <div class="icons d-flex mt-4  ">
+         <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-facebook  text-white"></i>  </a> 
+         <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-twitter  text-white"></i>  </a>
+         <a class="btn  rounded-circle  px-2 fs-4" href="#"><i class="fa-brands fa-instagram  text-white"></i>  </a>
+         <a class="btn rounded-circle px-2 fs-4" href="#"><i class="fa-brands fa-youtube  text-white"></i>  </a>
+         <a class="btn rounded-circle px-2 fs-4 " href="#"><i class="fa-brands fa-pinterest  text-white"></i>  </a>
+       </div>
+     </div>
+     
+  
+  
+     <div class="col-lg-1 offset-lg-1  col-md-1 col-sm-1 col-6 mt-5 d-flex flex-column ">
+      <div class="p-lg-3">
+       <h5 class="text-white fw-bold">SUPPORT</h5>
+      </div>
+       <div class="d-block footerlink ">
+        
+             
+        <a class=" nav-link text-white fs-6  fw-bold" href="#">Contact</a>
+        
+        <a class="nav-link text-white fs-6 fw-bold" href="#">FAQs</a>
+     
+        <a class="nav-link text-white fs-6  fw-bold" href="#"> Guide</a>
+     
+        <a class="nav-link text-white fs-6 fw-bold" href="#">Shipping</a>
+        
+       </div>
+     </div>
+  
+    
+     <div class="col-lg-2  col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-6  mt-5 d-flex flex-column ">
+      <div class="p-lg-3">
+       <h5 class="text-white fw-bold">SHOP</h5>
+      </div>
+       <div class="d-block">
+    
+         
+             <a class=" nav-link text-white fs-6  fw-bold" href="#">Men's Shopping</a>
+        
+             <a class="nav-link text-white fs-6 fw-bold" href="#">Women's Shopping</a>
+          
+             <a class="nav-link text-white fs-6 fw-bold" href="#">Kid's Shopping</a>
+          
+             <a class="nav-link text-white fs-6 fw-bold" href="#">Discounts</a>
+          
+       </div>
+     </div>
+  
+     <div class="col-lg-2  col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6   mt-5 d-flex flex-column  ">
+      <div class="p-lg-3">
+       <h5 class="text-white fw-bold">HELP</h5>
+      </div>
+       
+          <div class="d-block">
+             
+             <a class="nav-link text-white fs-6 fw-bold " href="#">Our story</a>
+         
+             <a class="nav-link text-white fs-6 fw-bold " href="#">Careers</a>
+          
+            <a class=" nav-link text-white fs-6 fw-bold" href="#">Terms&Condition</a>
+         
+       <a class=" nav-link text-white fs-6 fw-bold" href="#">Privacy & cocie police</a>
+     
+          </div>
+       
+      
+     </div>
+  
+     
+     <div class="col-lg-2  col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6  mt-5 p-2 d-flex flex-column ">
+      <div class="p-lg-3">
+      <h5 class="text-white fw-bold">CONTACT</h5>
+      </div>
+      <div class="d-block ">
+  
+        
+            <a class=" nav-link text-white fs-6 fw-bold" href="#" >1-888-923-804</a>
+         
+            <a class=" nav-link text-white fs-6 fw-bold" href="#" >1-888-923-8055</a>
+        
+            <a class=" nav-link text-white fs-6 fw-bold" href="#">help@allbirds.com</a>
+    
+           
+        
+      </div>
+     </div>
+   
+   </div>
+    </div>
+  </div>
+
+  <div class="container-fluid  footer3 p-3 bg-dark ">
+    <hr style="color: grey;">
+    <div class="container">
+      <div class="row">
+    <div class="col-lg-6 col-md-6 col-12 mt-3">
+    <p class="text-gray">@ 2019 All rights reserved. Desined by Unavd </p>
+    </div>
+    <div class="col-lg-6 col-md-6  d-lg-flex col-12 justify-content-end">
+      <div class="icons d-flex flex-row mt-3 ">
+        <a class="btn  fs-3 px-1 " href="#">  <img src="paypal-png.jpeg" style="height: 25px;"> </a> 
+       
+        <a class="btn  fs-3 px-1 " href="#">  <img src="visa.png" style="height: 25px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="express.png" style="height: 23px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="mastercard.png" style="height: 28px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="maestro.png" style="height: 28px;"> </a>
+        <a class="btn  fs-3 px-1 " href="#">  <img src="karna.png" style="height: 28px;"> </a>
+      </div>
+    </div>
+      </div>
+   </div>
+   </div>
+
+
+  <!--Fixed nav for xs sm---->
+  <ul class="nav fixed-bottom justify-content-around bg-light w-100 d-lg-none d-md-none d-block d-flex flex-row">
+    <li class="nav-item">
+      <a class="nav-link " href="#"><i class="bi bi-search text-gray"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"><i class="bi bi-person text-gray"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#"> <i class="bi bi-heart text-gray"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link  " href="#" ><i class="bi bi-cart text-gray"></i></a>
+    </li>
+  </ul>
+  
+  <script type="module" src="./index.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </body>
+
+  </html>
